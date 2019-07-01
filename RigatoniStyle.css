@@ -36,11 +36,13 @@ p {
 }
 ul {
     list-style: none;
+    margin: 0, auto;
 }
 li {
     font-family: Arial, Helvetica, sans-serif;
     color: whitesmoke;
 }
+
 table {
     border: 3;
     width: 100%;
@@ -75,7 +77,7 @@ a:hover {
 }
 #About {
     background-image: url("makePasta.jpg");
-    background-attachment: scroll;
+    background-attachment: fixed;
 }
 #About h3 {    
     color: rgba(255, 255, 255, 0.74);
@@ -96,7 +98,7 @@ a:hover {
     background-attachment: scroll;
 }
 #Contact p {
-    background-color: brown;
+    background-color: rgba(109, 68, 68, 0.658);
     border-radius: 10px;
 }
 #News {
@@ -112,11 +114,36 @@ a:hover {
     font-size: 130px;
     top: 75%;
 }
+.portrait {
+    height: 550px;
+    margin: 7em 4em 3em 10em;
+}
+.news {
+    background-color: rgba(49, 44, 44, 0.37);
+    height: 70%;
+    width: 40%;
+    margin: 6em 13em 0.5em 4em;
+    padding: 2em;
+}
+
+.shadow {
+    background-color: rgba(34, 33, 33, 0.39);
+    padding: 1.5em;
+    margin: 1em;
+    border-radius: 1em;
+    width: 45%;   
+}
+.overshadow {
+    background-color:  rgba(71, 68, 68, 0.658);
+    padding: 1em 2em 1em 2em;
+    margin: 1em;
+    border-radius: 15px;
+    
+}
 .half {
-    /*background-color: brown;*/
-    width: 50%;
-    height: 30%;
+    width: 30%;
     text-align: center;
+
 }
 .floatleft {
     float: left;
@@ -131,8 +158,14 @@ a:hover {
     margin-top: 8%;
 }
 #menulist {
-    margin-top: 20%;
+    margin: 0, auto;
 }
 #bio {
-    margin-top: 10%;
+    margin: 30%;
+}
+.balanceR {
+    margin: 2em 6em 6em 6em;
+}
+.balanceL {
+    margin: 6em 6em 2em 6em;
 }
